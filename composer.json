@@ -1,0 +1,32 @@
+{
+    "name": "alexbowey/classical-algorithms",
+    "description": "Releazation classicals algorithms on PHP, Python, JS and Go with unit tests",
+    "keywords": ["algorithms", "python", "php", "golang", "javascript"],
+    "homepage": "https://github.com/Taalaybek/classical-algorithms",
+    "type": "project",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "alex.bowey@yahoo.com",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "support": {
+        "issues": "https://github.com/Taalaybek/classical-algorithms/issues"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Algorithms\\Factorial": "src/factorial/"
+        }
+    },
+    "archive": {
+        "exclude": ["docs"]
+    }
+}
