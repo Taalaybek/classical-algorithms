@@ -1,2 +1,2 @@
 # classical-algorithms
-Releazation classicals algorithms on PHP and JS
+Releazation classicals algorithms on PHP, Python, JS and Go with unit tests
