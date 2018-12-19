@@ -23,7 +23,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Algorithms\\Factorial": "src/factorial/"
+            "Algorithms\\Factorial\\": "src/factorial",
+            "Algorithms\\Tests\\": "tests"
         }
     },
     "archive": {
