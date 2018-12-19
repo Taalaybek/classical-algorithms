@@ -23,8 +23,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Algorithms\\Factorial": "src/factorial/"
-        }
+            "Tests\\": "tests/"
+        },
+        "files": [
+            "src/factorial/factorial.php"
+        ]
     },
     "archive": {
         "exclude": ["docs"]
