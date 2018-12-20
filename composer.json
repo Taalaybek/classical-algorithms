@@ -26,7 +26,8 @@
             "Tests\\": "tests/"
         },
         "files": [
-            "src/factorial/factorial.php"
+            "src/factorial/factorial.php",
+            "src/binary_search/binary_search.php"
         ]
     },
     "archive": {
